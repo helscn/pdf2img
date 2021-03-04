@@ -31,6 +31,11 @@
   <property name="windowTitle">
    <string>PDF输出拼接图片 ver1.0</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/icon.ico</normalon>
+   </iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
     <property name="leftMargin">
@@ -659,6 +664,8 @@
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
  <connections/>
 </ui>
